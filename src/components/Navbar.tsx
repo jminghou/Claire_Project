@@ -1,6 +1,5 @@
 'use client'
-import { useState } from 'react'
-import Link from 'next/link'
+import React from 'react'
 
 const Navbar = () => {
   return (
