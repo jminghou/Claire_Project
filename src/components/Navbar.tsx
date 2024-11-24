@@ -1,5 +1,8 @@
 'use client'
 import React from 'react'
+// 移除未使用的導入
+// import { useState } from 'react'
+// import Link from 'next/link'
 
 const Navbar = () => {
   return (
