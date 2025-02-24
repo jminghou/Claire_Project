@@ -6,7 +6,7 @@
 # Testing
 /coverage
 
-# Next.js
+# Next.js build output
 /.next/
 /out/
 
@@ -26,6 +26,15 @@ yarn-error.log*
 .env*.local
 .env
 
-# IDE
-.vscode/
-.idea/
+# IDE - 如果您想保留IDE配置，可以註釋掉這些行
+#.vscode/
+#.idea/
+
+# 保留這些重要的配置文件（不要忽略）
+!next.config.js
+!next.config.mjs
+!tsconfig.json
+!package.json
+!package-lock.json
+!postcss.config.js
+!tailwind.config.js
