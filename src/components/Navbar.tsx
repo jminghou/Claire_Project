@@ -6,7 +6,7 @@ import React from 'react'
 
 const Navbar = () => {
   return (
-    <nav className="fixed w-full bg-white shadow-md z-50">
+    <nav className="fixed w-full bg-[#f6f5f1] z-50">
       <div className="container mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
           <a 
@@ -17,10 +17,10 @@ const Navbar = () => {
               window.scrollTo({ top: 0, behavior: 'smooth' })
             }}
           >
-            Logo
+            數位煉金室
           </a>
           <div className="hidden md:flex space-x-8">
-            <a href="#about" className="hover:text-gray-600">解決痛點</a>
+            <a href="#pain" className="hover:text-gray-600">解決痛點</a>
             <a href="#services" className="hover:text-gray-600">煉金觀點</a>
             <a href="#restaurant" className="hover:text-gray-600">關於克萊爾</a>
             <a href="#investors" className="hover:text-gray-600">資源下載</a>

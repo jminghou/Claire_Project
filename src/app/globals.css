@@ -3,3 +3,6 @@
 @tailwind utilities;
 
 /* 您的全局樣式 */
+body {
+  background-color: #e4eae6;
+}
