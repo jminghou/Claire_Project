@@ -17,10 +17,10 @@ const Card: React.FC<CardProps> = ({
 }) => {
   return (
     <div className="bg-white shadow-2xl overflow-hidden flex flex-col" style={{ width: '210px', height: '240px' }}>
-      <div className="px-2 py-1">
-        <h3 className="text-sm font-bold">{title}</h3>
+      <div className="px-2 py-1.5 text-center">
+        <h3 className="text-lg font-bold">{title}</h3>
       </div>
-      <div className="px-2 py-1 flex-grow">
+      <div className="px-2 py-0.5 flex-grow">
         <div className="border border-gray-300 h-[170px]">
           {imageSrc ? (
             <img 

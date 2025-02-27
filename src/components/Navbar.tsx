@@ -30,7 +30,7 @@ const Navbar = () => {
           <div className="hidden md:flex space-x-8">
             <a 
               href="#" 
-              className="hover:text-gray-600"
+              className="hover:text-[#128989]"
               onClick={(e) => {
                 e.preventDefault()
                 window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -38,9 +38,9 @@ const Navbar = () => {
             >
               首頁
             </a>
-            <a href="#pain" className="hover:text-gray-600">解決痛點</a>
-            <a href="#about" className="hover:text-gray-600">關於克萊爾</a>
-            <a href="#subscribe" className="hover:text-gray-600">訂閱我</a>
+            <a href="#pain" className="hover:text-[#128989]">解決痛點</a>
+            <a href="#about" className="hover:text-[#128989]">關於克萊爾</a>
+            <a href="#subscribe" className="hover:text-[#128989]">訂閱我</a>
           </div>
           
           {/* 漢堡選單按鈕 */}
@@ -69,7 +69,7 @@ const Navbar = () => {
             <div className="flex flex-col space-y-4">
               <a 
                 href="#" 
-                className="hover:text-gray-600"
+                className="hover:text-[#128989]"
                 onClick={(e) => {
                   e.preventDefault()
                   window.scrollTo({ top: 0, behavior: 'smooth' })
@@ -80,21 +80,21 @@ const Navbar = () => {
               </a>
               <a 
                 href="#pain" 
-                className="hover:text-gray-600"
+                className="hover:text-[#128989]"
                 onClick={() => setIsMenuOpen(false)}
               >
                 解決痛點
               </a>
               <a 
                 href="#about" 
-                className="hover:text-gray-600"
+                className="hover:text-[#128989]"
                 onClick={() => setIsMenuOpen(false)}
               >
                 關於克萊爾
               </a>
               <a 
                 href="#subscribe" 
-                className="hover:text-gray-600"
+                className="hover:text-[#128989]"
                 onClick={() => setIsMenuOpen(false)}
               >
                 訂閱我
