@@ -1,9 +1,9 @@
 import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
-import Services from '@/components/Services'
+// import Services from '@/components/Services'
 import Pain from '@/components/Pain'
-import Investors from '@/components/Investors'
+// import Investors from '@/components/Investors'
 import Subscribe from '@/components/Subscribe'
 import Footer from '@/components/Footer'
 
