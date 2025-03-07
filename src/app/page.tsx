@@ -6,12 +6,15 @@ import Pain from '@/components/Pain'
 // import Investors from '@/components/Investors'
 import Subscribe from '@/components/Subscribe'
 import Footer from '@/components/Footer'
+import Image from 'next/image'
 
 export default function Home() {
   return (
     <main className="min-h-screen">
       <Navbar />
-      <Hero />
+      <section id="hero">
+        <Hero />
+      </section>
       <section id="pain" className="min-h-screen flex items-center justify-center bg-[#415f61] py-20">
         <Pain />
       </section>

@@ -2,14 +2,14 @@ import Card from './UI/Card';
 
 const Hero = () => {
     const cards = [
-      { title: "顧客北極星", imageSrc: "", id: "customer", buttonLink: "/customer" },
-      { title: "商務戰情室", imageSrc: "", id: "business", buttonLink: "/business" },
-      { title: "行銷科技站", imageSrc: "", id: "marketing", buttonLink: "/marketing" },
-      { title: "彎道實驗室", imageSrc: "", id: "lab", buttonLink: "/lab" }
+      { title: "顧客北極星", imageSrc: "/pict/h_icon_01.jpg", id: "customer", buttonLink: "/customer" },
+      { title: "商務戰情室", imageSrc: "/pict/h_icon_02.jpg", id: "business", buttonLink: "/business" },
+      { title: "行銷科技站", imageSrc: "/pict/h_icon_03.jpg", id: "marketing", buttonLink: "/marketing" },
+      { title: "彎道實驗室", imageSrc: "/pict/h_icon_04.jpg", id: "lab", buttonLink: "/lab" }
     ];
     
     return (
-      <div className="min-h-screen relative overflow-hidden pt-20">
+      <div className="relative overflow-hidden pt-20 pb-32">
         {/* 背景容器 */}
         <div className="absolute inset-0">
           {/* 上半部背景 - 淺色 */}
@@ -31,7 +31,7 @@ const Hero = () => {
         </div>
         
         {/* 內容層 - 置中顯示，在小螢幕上調整位置 */}
-        <div className="absolute inset-0 flex flex-col items-center justify-start sm:justify-center pt-32 sm:pt-0">
+        <div className="relative flex flex-col items-center justify-start pt-32 sm:pt-0">
           <div className="text-center px-4 z-10 mb-6 sm:mb-16 mt-0 sm:mt-0">
             <h1 className="text-2xl sm:text-3xl font-bold mb-4 text-black relative">
               <span className="relative z-10">創作的底層邏輯．就是商業模式的重構</span>
@@ -40,7 +40,7 @@ const Hero = () => {
           </div>
           
           {/* 四張卡片 */}
-          <div className="container mx-auto px-4 z-10">
+          <div className="container mx-auto px-4 z-10 mt-8 sm:mt-16">
             <div className="flex flex-wrap justify-center gap-4 sm:gap-5">
               {cards.map((card) => (
                 <Card 
@@ -48,6 +48,7 @@ const Hero = () => {
                   title={card.title}
                   imageSrc={card.imageSrc}
                   buttonLink={card.buttonLink}
+                  id={card.id}
                 />
               ))}
             </div>
